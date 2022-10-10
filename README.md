@@ -1,5 +1,4 @@
 # TZS22
-
 ## Ovaj github page (i repo koji ide uz njega) sadrže sve materijale za predmet "Teorija Zvezdanih Spektara", za školsku 2022/2023 godinu. 
 
 #### Ovde ćemo hostovati:
@@ -10,11 +9,21 @@
 - Domaće zadatke i zadatke sa vežbi 
 - Ispitne zadatke, rešenja, i slično
 - Sve druge potrebne i nepotrebne zanimljivosti! 
-
+---
+## Predavanja su utorkom od 9:00 (9:15) do 12:00 (3x45 min)
+## Vežbe su petkom od 16:00 (16:15) do 18:00 (2x45 min), u saradnji sa asistentkinjom Jasminom Horvat
+## Konsultacije su utorkom posle predavanja (do 14:00), u petkom pre vežbi (od 14:00)
+---
+## Ocenjivanje
+### U ocenu ulaze: 
+### Predispitne obaveze: Domaći zadaci, praktične vežbe, samostalni mini-projekat (40%). 
+### Kolokvijum (20%)
+### Završni ispit (uključuje i usmeni, 40%). 
+---
 
 ### Kurikulum kursa (podložno malim promenama): 
 
-1) *11.10.* Uvod u kurs i dogovor oko ispitivanja i predispitnih obaveza. Kratka istorija spektroskopije i istraživanja zvezdanih atmosfera. Globalni i redukovani problem prenosa zračenja. Definicija zvezdane atmosfere. Specifični monohromatski intenzitet zračenja. 
+1) *(11. Oktobar)* Uvod u kurs i dogovor oko ispitivanja i predispitnih obaveza. Kratka istorija spektroskopije i istraživanja zvezdanih atmosfera. Globalni i redukovani problem prenosa zračenja. Definicija zvezdane atmosfere. Specifični monohromatski intenzitet zračenja. 
  
 2) *18.10.* Osnovne veličine polja zračenja (specifični intenzitet, srednji intenzitet, fluks, gustina i pritisak zračenja). Interakcija zračenja i materije. Koeficijenti prenosa: ekstinkcije/apsorpcije i emisije. Ravnotežne raspodele čestica i fotona.
 
