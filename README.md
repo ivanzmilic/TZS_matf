@@ -9,11 +9,13 @@
 - Domaće zadatke i zadatke sa vežbi 
 - Ispitne zadatke, rešenja, i slično
 - Sve druge potrebne i nepotrebne zanimljivosti! 
+
 ---
 ## Predavanja su utorkom od 9:00 (9:15) do 12:00 (3x45 min)
 ## Vežbe su petkom od 16:00 (16:15) do 18:00 (2x45 min), u saradnji sa asistentkinjom Jasminom Horvat
 ## Konsultacije su utorkom posle predavanja (do 14:00), u petkom pre vežbi (od 14:00)
 ---
+
 ## Ocenjivanje
 ### U ocenu ulaze: 
 ### Predispitne obaveze: Domaći zadaci, praktične vežbe, samostalni mini-projekat (40%). 
