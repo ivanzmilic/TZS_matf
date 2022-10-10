@@ -11,8 +11,10 @@
 - Ispitne zadatke, rešenja, i slično
 - Sve druge potrebne i nepotrebne zanimljivosti! 
 
+
 ### Kurikulum kursa (podložno malim promenama): 
-1) *11.10.* Uvodni čas. Definicija zvezdane atmosfere. Aproksimacije pri modeliranju atmosfera. Globalni i redukovani problem prenosa zračenja. Osnovne veličine polja zračenja (specifični intenzitet zračenja)
+
+1) *11.10.* Uvod u kurs i dogovor oko ispitivanja i predispitnih obaveza. Kratka istorija spektroskopije i istraživanja zvezdanih atmosfera. Globalni i redukovani problem prenosa zračenja. Definicija zvezdane atmosfere. Specifični monohromatski intenzitet zračenja. 
  
 2) *18.10.* Osnovne veličine polja zračenja (specifični intenzitet, srednji intenzitet, fluks, gustina i pritisak zračenja). Interakcija zračenja i materije. Koeficijenti prenosa: ekstinkcije/apsorpcije i emisije. Ravnotežne raspodele čestica i fotona.
 
