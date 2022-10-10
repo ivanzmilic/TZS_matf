@@ -1,8 +1,8 @@
-### TZS22
+# TZS22
 
 ## Ovaj github page (i repo koji ide uz njega) sadrže sve materijale za predmet "Teorija Zvezdanih Spektara", za školsku 2022/2023 godinu. 
 
-# Ovde ćemo hostovati:
+#### Ovde ćemo hostovati:
 
 - Slajdove sa predavanja 
 - Beleške / Skripte sa predavanja
