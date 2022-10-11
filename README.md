@@ -22,6 +22,10 @@
 ### Kolokvijum (20%)
 ### Završni ispit (uključuje i usmeni, 40%). 
 ---
+## Literatura: 
+
+## Korisni linkovi:
+---
 
 ### Kurikulum kursa (podložno malim promenama): 
 
