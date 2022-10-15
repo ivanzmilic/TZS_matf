@@ -29,7 +29,7 @@
 
 ### Kurikulum kursa (podložno malim promenama): 
 
-1) *(11. Oktobar)* Uvod u kurs i dogovor oko ispitivanja i predispitnih obaveza. Kratka istorija spektroskopije i istraživanja zvezdanih atmosfera. Globalni i redukovani problem prenosa zračenja. Definicija zvezdane atmosfere. Specifični monohromatski intenzitet zračenja. 
+1) *(11. Oktobar)* Uvod u kurs i dogovor oko ispitivanja i predispitnih obaveza. Kratka istorija spektroskopije i istraživanja zvezdanih atmosfera. Osnovne ideje o modelima zvezdanih atmosfera. *Vežbe*: Spektrofotometrijske veličine, specifični monohromatski intenzitet i istorija zakona zračenja apsolutno crnog tela.
  
 2) *18.10.* Osnovne veličine polja zračenja (specifični intenzitet, srednji intenzitet, fluks, gustina i pritisak zračenja). Interakcija zračenja i materije. Koeficijenti prenosa: ekstinkcije/apsorpcije i emisije. Ravnotežne raspodele čestica i fotona.
 
