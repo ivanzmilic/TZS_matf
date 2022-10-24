@@ -31,9 +31,9 @@
 
 1) *(11. Oktobar)* Uvod u kurs i dogovor oko ispitivanja i predispitnih obaveza. Kratka istorija spektroskopije i istraživanja zvezdanih atmosfera. Osnovne ideje o modelima zvezdanih atmosfera. *Vežbe*: Spektrofotometrijske veličine, specifični monohromatski intenzitet i istorija zakona zračenja apsolutno crnog tela.
  
-2) *18.10.* Osnovne veličine polja zračenja (specifični intenzitet, srednji intenzitet, fluks, gustina i pritisak zračenja). Interakcija zračenja i materije. Koeficijenti prenosa: ekstinkcije/apsorpcije i emisije. Ravnotežne raspodele čestica i fotona.
+2) *(18. Oktobar)* Interakcija zračenja i materije. Jednačina prenosa u formi "duž zraka". Koeficijenti emisije i apsorpcije. Dimenziona analiza i generalni izraz za koeficijente emisije i apsorpcije. Funkcija izvora i optička dubina. Formalno rešenje JPZ.
 
-3) *25.10* Aproksimacija LTR. LTR vs. Ne-LTR. Jednačina prenosa zračenja. Optička dubina. Funkcija izvora. Specijalni slučajevi. Formalno rešenje JPZ. 
+3) *(25. Oktobar)* Generalni oblik JPZ. Plan-paralelne i sferne atmosfere. Formalno rešenje u zavisnosti od visine i ugla u jednodimenzionoj atmosferi. Ravnotežne raspodele i koncept LTR. 
 
 4) *1.11.*  Momenti JPZ. Operatori. Eddington-Barbier relacija za intenzitet. Raspodela sjaja po disku Sunca.  Eddington-Barbier relacija za fluks. Ravnoteža zračenja. Aproksimacija sive atmosfere. 
 
