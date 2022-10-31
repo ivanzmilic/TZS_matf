@@ -35,7 +35,8 @@
 
 3) *(25. Oktobar)* Generalni oblik JPZ. Plan-paralelne i sferne atmosfere. Formalno rešenje u zavisnosti od visine i ugla u jednodimenzionoj atmosferi. Ravnotežne raspodele i koncept LTR. 
 
-4) *1.11.*  Momenti JPZ. Operatori. Eddington-Barbier relacija za intenzitet. Raspodela sjaja po disku Sunca.  Eddington-Barbier relacija za fluks. Ravnoteža zračenja. Aproksimacija sive atmosfere. 
+4) *(1. Novembar)*  Mehanizmi apsorpcije i emisije. Apsorpcija u liniji i kontinuumu. Izrazi za neprozracnost za b-b, b-f i f-f prelaze. Negativan jon vodonika. Koncept sive atmosfere.
+
 
 5) *8.11.* Raspodela temperature u sivoj atmosferi u RZ i LTR. Milnova integralna jednačina. Hopfovo rešenje. Aproksimativna rešenja sivog problema (Švarcšild – Šusterovo, Edingtonovo). Potamnjenje ka rubu (poređenje sa posmatranjem). Koeficijent apsorpcije u kontinuumu. Apsorpcija vodonikom (b-f i f-f prelazi). Negativan jon vodonika.
 
