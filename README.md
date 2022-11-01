@@ -22,7 +22,12 @@
 ### Kolokvijum (20%)
 ### Završni ispit (uključuje i usmeni, 40%). 
 ---
+##
+Domaći Zadaci: 
+Prvi domaći biće okačen 01/11 i rok za predaju je 18/11. 
+##
 ## Literatura: 
+Interpreting Astronomical Spectra (D. Emerson, Wiley 1996) - dosta dobro opisuje generalne koncepte u prenosu zračenja, i sumira čime se bavimo u našem kursu. Korisna i za Interpretaciju Astronomskih spektara (master kurs)
 
 ## Korisni linkovi:
 ---
