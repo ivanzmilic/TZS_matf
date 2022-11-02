@@ -20,18 +20,27 @@ U izradi doma\'{c}eg zadatka se mo\v{z}ete konsultovati medjusobno i sa mnom. Sv
 
 Razmatrajmo polubeskona\v{c}nu, plan-paralelnu atmosferu u kojoj funkcija izvora na nekoj, referentnoj talasnoj du\v{z}ini zavisi od opti\v{c}ke dubine kao:
 \begin{equation}
-S = a + b\tau + c \tau^2
+S = a + b\tau
+\end{equation}
+Ovo je poznato kao Milne-Eddingtonova (ili Milne-Barbier-Unsold approksimacija) i na osnovu nje mozemo da dodjemo do raznih korisnih relacija koje nam omogu\'{c}avaju da bolje razumemo zvezdane atmosfere. Medjutim, u zvezdanim atmosferama bi imalo vi\v{s}e smisla koristiti $\ln \tau$ kao skalu dubine. Pretpostavimo, dakle, da na\v{s}a funkcija izvora zavisi od referentne opti\v{c}ke dubine kao:
+\begin{equation}
+S = a + b\ln\tau
 \end{equation}
 
+
 \begin{itemize}
-    \item Re\v{s}iti jedna{v}cinu prenosa zra\v{c}enja na referentnoj talasnoj du\v{z}ini, tj. izraziti izlazni intenzitet preko konstanti $a,b,c$. Ovaj intenzitet \'{c}emo zvati $I^+$
-    \item Pretpostaviti da je odnos izmedju neprozra\v{c}nost na drugim talasnim du\v{z}inama i refererentne neprozra\v{c}nosti konstantan sa dubinom pa da mo\v{z}emo da pi\v{s}emo: 
+    \item Re\v{s}iti jedna{v}cinu prenosa zra\v{c}enja na referentnoj talasnoj du\v{z}ini, tj. izraziti izlazni intenzitet preko konstanti $a, b$. Ovaj intenzitet \'{c}emo zvati $I^+$. Napomena: Integral koji se dobija nije mogu\'{c}e re\v{s}iti analiti\v{c}ki, tako da morate iskoristiti npr. Mathematicu, Wolfram Alpha ili sli\v{c}no.
+    
+    \item Ova pretpostavka ima jedan konceptualan problem a to je da na malim opti\v{c}kim dubinama, $\ln \tau$ ide u $-\infty$ pa, bez obzira koliko je koeficijent $b$ mali, funkcija izvora bi postala negativna. To mo\v{z}emo da popravimo tako \v{s}to \'{c}emo pretpostaviti da je funkcija izvora paraboli\v{c}na funkcija od $\ln \tau$:
     \begin{equation}
-    \tau_\lambda = r_\lambda \, \tau
+        S = a + b\ln \tau + c \ln^2 \tau
     \end{equation}
-    $r_\lambda$ o\v{c}igledno govori da li je atmosfera vi\v{s}e ili manje neprozra\v{c}na na datoj talasnoj du\v{z}ini nego na referentnoj talasnoj du\v{z}ini. Re\v{s}iti jedna\v{c}inu prenosa za izlazni intenzitet i dobiti $I_\lambda^+$ kao funkciju parametara $a, b, c, r_\lambda$.
-    \item Pretpostavimo (va\v{z}i za relativno velike talasne du\v{z}ine) da je funkcija izvora propoprcionalna Temperaturi. Jednostavnosti radi uzmimo da je konstanta proporcionalnosti jednaka jedan. Na\'{c}i $a, b, c$ tako da je $T(\tau=1) = 6000$, $T(\tau=0.01) = 4500$, $T(\tau=0) = 8000$. 
-    \item Sa izra\v{c}unatim $a,b,c$ iz prethodnog dela, nadji opsege $r_\lambda$ za koje je izlazni intenzitet na toj talasnoj du\v{z}ini manji, odnosno ve\'{c}i od $I^+$ koje smo na\v{s}li u prvom delu.
+    Re\v{s}iti jedna\v{c}inu prenosa za ovakav oblik funkcije izvora. 
+    
+    \item Pretpostavimo (va\v{z}i za relativno velike talasne du\v{z}ine) da je funkcija izvora propoprcionalna Temperaturi. Jednostavnosti radi uzmimo da je konstanta proporcionalnosti jednaka jedan. Na\'{c}i $a, b, c$ tako da je $T(\ln\tau=0) = 6000$ (fotosfera), $T(\ln\tau=-7) = 4500$ (tzv. temperaturski minimum), $T(\ln\tau=-14) = 8000$ (hromosfera). Izra\v{c}unaj numeri\v{c}ku vrednost $I^+$. Da li va\v{z}i da je izlazni intenzitet pribli\v{z}no jednak funkciji izvora na $\tau=1$?
+
+    \item Kakav bi bio izlazni intenzitet na talasnoj du\v{z}ini na kojoj je koeficijent neprozra\v{c}nosti $r_\lambda$ puta ve\'{c}i od referentnog? Skicirajte / isplotujte zavisnost $I^+_\lambda$ od $r_\lambda$ ($r_\lambda >  1$).
+    
 \end{itemize}
 
 \section*{Zadatak 2}
