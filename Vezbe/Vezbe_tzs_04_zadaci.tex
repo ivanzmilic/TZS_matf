@@ -1,0 +1,41 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage[colorlinks=true]{hyperref}
+
+
+\title{TZS Ve\v{z}be: \v{C}as 4, 04/11/2022}
+\author{Ivan Mili\'{c}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{Zadatak 1}
+
+Danas radimo jednu prakti\v{c}nu / numeri\v{c}ku ve\v{z}bu. Radi\'{c}emo sa poznatim ``FALC'' modelom atmosfere Sunca. Model atmosfere je u stvari tabela vrednosti raznih fizi\v{c}kih parametara. Model se nalazi u fajlu ``falc_71.dat''. Svaka vrsta sadr\v{z}i vrednost parametera za jedan ``sloj'' atmosfere. Svaka kolona sadr\v{z}i vrednosti za jedan specifi\v{c}an parametar. Za nas su va\v{z}ne slede\'{c}e kolone:
+\begin{itemize}
+    \item 0-ta kolona: Opti\v{c}ka dubina u kontinuumu, u logaritamskoj skali.
+    \item 1-a kolona: Visina u odnosu na ``povr\v{s}inu'' fotosfere.
+    \item 2-a kolona: Temperatura
+    \item 3-a kolona: Ukupan pritisak gasa
+    \item 4-a kolona: Elektronski pritisak
+\end{itemize}
+
+\textbf{Pa\v{z}nja:} sve jedinice su u tzv. CGS sistemu jedinica!
+
+Zadaci: 
+
+\begin{enumerate}
+    \item U\v{c}itajte podatke u jupyter notebook (ili sli\v{c}no) i upoznajte se sa raspodelom svih relevantnih parametara sa visinom. Prodiskutujte. Kako dobiti koncetraciju elektrona i ukupnu koncentraciju \v{c}estica iz pritisaka?
+    \item Pod pretpostavkom Lokalne Termodinami\v{c}ke ravnote\v{z}e, izra\v{c}unajte funkciju izvora za neki relevantan opseg talasnih du\v{z}ina, za svaku dubinu i uporedite rezultate. Prodiskutujte. 
+    \item Pretpostavite da je koncentracija \v{c}estica ukupna koncentracija neutralnog vodonika, protona i elektrona. Koriste\'{c}i Sahinu raspodelu izra\v{cunajte} ove koncentracije za svaku visinu. 
+    \item Da li se i kako razlikuje stepen jonizacije vodonika na vrhu i na dnu atmosfere? Za\v{s}to?
+    \item Uporedite dobijenu elektronsku koncentraciju sa onom datom u tabeli i diskutujte razlike. 
+    \item Skicirajte pro\v{s}irenje ovog metoda na slu\v{c}aj gde razmatramo i Helijum i njegovu jonizaciju. \
+    \item Ukoliko bude vremena, izvedite na tabli jednostavno numeri\v{c}ko re\v{s}enje jedna\v{c}ine prenosa zra\v{c}enja. Hint: razmatrajte atmosferu kao mnogo homogenih slojeva konstantne funkcije izvora koji su naslagani jedan na drugi. Izra\v{c}unajte izlazni spektar na talasnoj du\v{z}ini koja odgovara skali opti\v{c}ke dubine datoj u modelu atmosfere.
+    \item Uvedite neko skaliranje neprozra\v{c}nosti $r_\lambda$ koje ne zavisi od dubine (ali, naravno, zavisi od talasne du\v{z}ine) i pro\v{s}irite metod iz prethodne stavke na ovaj slu\v{c}aj. Probajte da dobijete neke, ``toy model'' spektre sa spektralnim linijama. Mo\v{z}ete li da dobijete slu\v{c}aj spektralne linije koja prelazi iz apsorpcije u emisiju? A obrnuto?
+\end{enumerate}
+
+\end{document}
