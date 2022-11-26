@@ -1,5 +1,14 @@
 # TZS22
+
+## Kolokvijum je u nedelju 27/11 u 10:00 na Katedri za Astronomiju!
+
+### Link na resenje zadatka sa konsultacija (2. zadatak, 3. vezbe):
+
+https://www.dropbox.com/s/z4cdikz4sz0eqwb/Tabla%20vezbe.pdf?dl=0
+-------------------------------------------------------------------
 ## Ovaj github page (i repo koji ide uz njega) sadrže sve materijale za predmet "Teorija Zvezdanih Spektara", za školsku 2022/2023 godinu. 
+
+
 
 #### Ovde ćemo hostovati:
 
