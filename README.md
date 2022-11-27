@@ -1,5 +1,14 @@
 # TZS22
+
+## Kolokvijum je u nedelju 27/11 u 10:00 na Katedri za Astronomiju!
+
+### Link na resenje zadatka sa konsultacija (2. zadatak, 3. vezbe):
+
+https://www.dropbox.com/s/z4cdikz4sz0eqwb/Tabla%20vezbe.pdf?dl=0
+-------------------------------------------------------------------
 ## Ovaj github page (i repo koji ide uz njega) sadrže sve materijale za predmet "Teorija Zvezdanih Spektara", za školsku 2022/2023 godinu. 
+
+
 
 #### Ovde ćemo hostovati:
 
@@ -43,7 +52,7 @@ Interpreting Astronomical Spectra (D. Emerson, Wiley 1996) - dosta dobro opisuje
 4) *(1. Novembar)*  Mehanizmi apsorpcije i emisije. Apsorpcija u liniji i kontinuumu. Izrazi za neprozracnost za b-b, b-f i f-f prelaze. Negativan jon vodonika. Koncept sive atmosfere.
 
 
-5) *8.11.* Raspodela temperature u sivoj atmosferi u RZ i LTR. Milnova integralna jednačina. Hopfovo rešenje. Aproksimativna rešenja sivog problema (Švarcšild – Šusterovo, Edingtonovo). Potamnjenje ka rubu (poređenje sa posmatranjem). Koeficijent apsorpcije u kontinuumu. Apsorpcija vodonikom (b-f i f-f prelazi). Negativan jon vodonika.
+5) *.11.* Raspodela temperature u sivoj atmosferi u RZ i LTR. Milnova integralna jednačina. Hopfovo rešenje. Aproksimativna rešenja sivog problema (Švarcšild – Šusterovo, Edingtonovo). Potamnjenje ka rubu (poređenje sa posmatranjem). Koeficijent apsorpcije u kontinuumu. Apsorpcija vodonikom (b-f i f-f prelazi). Negativan jon vodonika.
 
 6) *15.11.* Uticaj odstupanja koeficijenta apsorpcije u kontinuumu od sivog na izlazni fluks u kontinuumu.  Zavisnost nagiba Pašenovog kontinuuma i Balmerovog skoka od T i log g. Srednji koeficijent ekstinkcije. Model ne-sive atmosfere u LTR i RZ. Procedura temperaturske korekcije. Raspodela pritiska – integracija jednačine hidrostatičke ravnoteže. 
 
