@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{graphicx}
+
+\title{Tre\'{c}i Doma\'{c}i zadatak}
+\author{TZS}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+U izradi doma\'{c}eg zadatka se mo\v{z}ete konsultovati medjusobno i sa mnom. Svaki doma\'{c}i koji predajete, medjutim, mora biti samostalno napisan. 
+
+\textbf{Rok za predaju ovog doma\'{c}eg zadatka je petak 06.01.2023. Mo\v{z}ete predati doma\'{c}i u .pdf-u!}
+
+\section*{Zadatak 1}
+
+(Svaki deo nosi po 5 poena)
+
+Razmatramo interval talasnih du\v{z}ina gde imamo apsorpciju i emisiju usled spektralne linije i usled kontinuuma. Pretpostavi\'{c}emo da je neprozra\v{c}nost u kontinuumu konstantna sa talasnom du\v{z}inom i jednaka $\chi^c$. Pretpostavimo da je kontinuum u LTR. Sa druge strane, defini\v{s}imo \emph{funkciju izvora u liniji} kao odnos koeficijenata emisije i apsorpcije u liniji. Dakle:
+\begin{equation}
+S^L = \frac{j_\lambda^L}{\chi_\lambda^L},
+\end{equation}
+gde ova funkcija izvora, generalno, ne mora biti u LTR. Kada re\v{s}avamo jedna\v{c}inu prenosa, medjutim, koristimo \emph{ukupnu} fukciju izvora koja je jednaka odnosu ukupnih koeficijenata emisije i apsorpcije (kontinuum + linija).
+
+\begin{itemize}
+\item Pokazati da je ukupna funkcija izvora:
+\begin{equation}
+S_\lambda = \frac{\chi^L_\lambda}{\chi} S^L + \frac{\chi^c}{\chi} B.
+\end{equation}
+
+Obratiti pa\v{z}nju da smo napisali $S_\lambda$. Za\v{s}to, ako ni funkcija izvora u liniji ni u kontinuumu ne zavise od talasne du\v{z}ine?
+
+\item Pod pretpostavkom da je $S_L = B = a+b\tau$ (Milne-Eddingtonova atmosfera). I da je neprozra\v{c}nost u liniji:
+\begin{equation}
+\chi^L_\lambda = \chi^L \phi_\lambda,
+\end{equation}
+te da je: 
+\begin{equation}
+\frac{\chi^L}{\chi^c} = \eta,
+\end{equation}
+pokazati da je izraz za izlazni intenzitet:
+\begin{equation}
+I_\lambda = a + \mu\frac{b}{1+\eta \phi_\lambda}.
+\end{equation}
+
+\item Pretpostaviti da apsorpcioni profil linije ima gausovski oblik, sa zadatom doplerovom \v{s}irinom ($\Delta \lambda_D$) i centrom. Prikazati, koriste\'{c}i program za plotovanje po \v{z}elji, uticaj parametara $\eta$ i $\Delta \lambda _D$ na oblik linije.
+\end{itemize}
+
+\section*{Zadatak 2}
+
+(5 poenta)
+
+Neke linije u spektru Sunca imaju emisiju u centru (npr. Mg II h \& k linije), dok neke nemaju (ve\'{c}ina ostalih). Objasniti za\v{s}to.
+\end{document}
