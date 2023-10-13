@@ -1,12 +1,7 @@
-# TZS22
+# TZS23
 
-## Kolokvijum je u nedelju 27/11 u 10:00 na Katedri za Astronomiju!
-
-### Link na resenje zadatka sa konsultacija (2. zadatak, 3. vezbe):
-
-https://www.dropbox.com/s/z4cdikz4sz0eqwb/Tabla%20vezbe.pdf?dl=0
 -------------------------------------------------------------------
-## Ovaj github page (i repo koji ide uz njega) sadrže sve materijale za predmet "Teorija Zvezdanih Spektara", za školsku 2022/2023 godinu. 
+## Ovaj github page (i repo koji ide uz njega) sadrže sve materijale za predmet "Teorija Zvezdanih Spektara", za školsku 2023/2024 godinu. 
 
 
 
@@ -20,22 +15,23 @@ https://www.dropbox.com/s/z4cdikz4sz0eqwb/Tabla%20vezbe.pdf?dl=0
 - Sve druge potrebne i nepotrebne zanimljivosti! 
 
 ---
-### Predavanja su utorkom od 9:00 (9:15) do 12:00 (3x45 min)
+### Predavanja su utorkom od 13:00 (9:15) do 16:00 (3x45 min)
 ### Vežbe su petkom od 16:00 (16:15) do 18:00 (2x45 min), u saradnji sa asistentkinjom Jasminom Horvat
-### Konsultacije su utorkom posle predavanja (do 14:00), u petkom pre vežbi (od 14:00)
+### Konsultacije su utorkom pre ili posle predavanja (do 14:00)
 ---
 
 ## Ocenjivanje
 ### U ocenu ulaze: 
-### Predispitne obaveze: Domaći zadaci, praktične vežbe, samostalni mini-projekat (40%). 
-### Kolokvijum (20%)
-### Završni ispit (uključuje i usmeni, 40%). 
+### Predispitne obaveze: Domaći zadaci (3 x 10%), Izvestaji sa prakticnih (numerickih) vezbi (10%).
+### Završni ispit (uključuje i usmeni, 60%). 
+### Moguće je osloboditi se jednog zadatka (33% u relativnom smislu, 20% u apsolutnom) preko kolokvijuma. 
 ---
 ##
 Domaći Zadaci: 
-Prvi domaći biće okačen 01/11 i rok za predaju je 18/11. 
+Prvi domaći biće okačen 27/10 i rok za predaju je 10/11.
 ##
 ## Literatura: 
+Priložene skripte prof. Olge Atanacković i prof. Roba Ruttena
 Interpreting Astronomical Spectra (D. Emerson, Wiley 1996) - dosta dobro opisuje generalne koncepte u prenosu zračenja, i sumira čime se bavimo u našem kursu. Korisna i za Interpretaciju Astronomskih spektara (master kurs)
 
 ## Korisni linkovi:
