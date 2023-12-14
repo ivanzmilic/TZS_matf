@@ -22,7 +22,7 @@
 
 ## Ocenjivanje
 ### U ocenu ulaze: 
-### Predispitne obaveze: Domaći zadaci (3 x 10%), Izvestaji sa prakticnih (numerickih) vezbi (10%).
+### Predispitne obaveze: Domaći zadaci (2 x 13.3333%), Izvestaji sa prakticnih (numerickih) vezbi (13.3333%).
 ### Završni ispit (uključuje i usmeni, 60%). 
 ### Moguće je osloboditi se jednog zadatka (33% u relativnom smislu, 20% u apsolutnom) preko kolokvijuma. 
 ---
