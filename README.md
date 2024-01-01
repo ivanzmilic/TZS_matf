@@ -16,7 +16,7 @@
 ## Youtube lista koja sadrzi snimke nekih online predavanja je ovde: https://www.youtube.com/playlist?list=PLsxDZRiYEvxcVyOGq49vkQyqi6vRnVEEk
 
 ---
-### Predavanja su utorkom od 13:00 (9:15) do 16:00 (3x45 min)
+### Predavanja su utorkom od 10:00 (9:15) do 13:00 (3x45 min)
 ### Vežbe su petkom od 16:00 (16:15) do 18:00 (2x45 min), u saradnji sa asistentkinjom Jasminom Horvat
 ### Konsultacije su utorkom pre ili posle predavanja (do 14:00)
 ---
@@ -66,5 +66,3 @@ Postoji knjiga na srpskom jeziku, "Teorijska Astrofizika", Prof. Mirjane Vukiće
 13) *(19. Decembar).* Primena numeričkog rešenja JPZ na problem formiranja linija sa naležućim kontinuumom. 
 
 14)  *(26. Decembar).* Kompletna redistribucija, rasejanje i jednačina statističke ravnoteže za atom sa dva i više nivoa. Zaključna diskusija. 
-
-15) *28.12* Konsultacije i probni ispit 
