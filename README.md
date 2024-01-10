@@ -51,18 +51,18 @@ Postoji knjiga na srpskom jeziku, "Teorijska Astrofizika", Prof. Mirjane Vukiće
 
 5) *(31. Oktobar)*  Mehanizmi apsorpcije i emisije. Apsorpcija u liniji i kontinuumu. Izrazi za neprozracnost za b-b, b-f i f-f prelaze. Negativan jon vodonika. Koncept sive atmosfere. Čas je održan online, i snimak je dostupan.
 
-6) *(7. Novembar)* Raspodela temperature u sivoj atmosferi u RZ i LTR. Milnova integralna jednačina. Hopfovo rešenje. Aproksimativna rešenja sivog problema (Švarcšild – Šusterovo, Edingtonovo). Potamnjenje ka rubu (poređenje sa posmatranjem). 
+6) *(14. Novembar)* Koncept ravnoteže zračenja. Momenti JPZ i modelovanje zvezdanih atmosfera u ravnoteži zračenja i LTR.
 
-8) *(14. Novembar) * Ne-sive atmosfere. Uticaj odstupanja koeficijenta apsorpcije u kontinuumu od sivog na izlazni fluks u kontinuumu.  Model ne-sive atmosfere u LTR i RZ. Procedura temperaturske korekcije. Raspodela pritiska – integracija jednačine hidrostatičke ravnoteže. 
+7)  *(21. Novembar)* Raspodela temperature u sivoj atmosferi u RZ i LTR. Milnova integralna jednačina. Hopfovo rešenje. Aproksimativna rešenja sivog problema (Švarcšild – Šusterovo, Edingtonovo). Potamnjenje ka rubu (poređenje sa posmatranjem). 
 
-9) *(21. Novembar)* Formiranje spektralnih linija. Posmatrane karakteristike spektralnih linija (profil - remanentni intenzitet i ekvivalentna širina linije). Apsorpcija u linijama. Jednačina prenosa zračenja u liniji i kontinuumu.
-  
-10) *(28. Novembar)* Koeficijenti apsorpcije i emisije u liniji (izvođenje).
+8) *(25. Novembar) * Ne-sive atmosfere. Uticaj odstupanja koeficijenta apsorpcije u kontinuumu od sivog na izlazni fluks u kontinuumu.  Model ne-sive atmosfere u LTR i RZ. Procedura temperaturske korekcije. Raspodela pritiska – integracija jednačine hidrostatičke ravnoteže.  + Numeričko rešavanje Milneaovog problema. 
 
-11) *(5. Decembar)* Prirodno širenje. Doplerovo širenje. Sudarno širenje. Drugi mehanizmi širenja spektralnih linija (rotacija, turbulencija, magnetno polje, gravitaciono polje). Fojtov profil. 
+9)  *(12. Decembar)* Uvod u spektralne linije. Koeficijenti apsorpcije i emisije u liniji (izvođenje).
 
-12) *(12. Decembar)* Modeli formiranja spektralnih linija. Klasični modeli (Švarcšildov model - LTR, Šusterov model čistog rasejanja, Milne-Eddingtonov model).
+10) *(15. Decembar)* Prirodno širenje. Doplerovo širenje. Sudarno širenje. Drugi mehanizmi širenja spektralnih linija (rotacija, turbulencija, magnetno polje, gravitaciono polje). Fojtov profil. 
 
-13) *(19. Decembar).* Primena numeričkog rešenja JPZ na problem formiranja linija sa naležućim kontinuumom. 
+11) *(19. Decembar)* Modeli formiranja spektralnih linija. Rasejanje. Klasični modeli (Švarcšildov model - LTR, Šusterov model čistog rasejanja, Milne-Eddingtonov model).
+
+13) *(20. Decembar).* Primena numeričkog rešenja JPZ na problem formiranja linija sa naležućim kontinuumom. 
 
 14)  *(26. Decembar).* Kompletna redistribucija, rasejanje i jednačina statističke ravnoteže za atom sa dva i više nivoa. Zaključna diskusija. 
