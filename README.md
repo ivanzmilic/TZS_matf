@@ -2,7 +2,7 @@
 
 -------------------------------------------------------------------
 ## Ovaj github page (i repo koji ide uz njega) sadrže sve materijale za predmet "Teorija Zvezdanih Spektara". Materijali bivaju dopunjeni (i, nadam se, unapredjeni) svake godine.
-## ~ NOVO ~ Pismeni ispit je zakazan za 12.01.2023. 
+## ~ NOVO ~ Kolokvijum je zakazan za 22/11/2024!
 
 #### Ovde ćemo hostovati:
 
@@ -13,17 +13,17 @@
 - Ispitne zadatke, rešenja, i slično
 - Sve druge potrebne i nepotrebne zanimljivosti!
 
-## Youtube lista koja sadrzi snimke nekih online predavanja je ovde: https://www.youtube.com/playlist?list=PLsxDZRiYEvxcVyOGq49vkQyqi6vRnVEEk
+## Youtube lista koja sadrzi snimke nekih online predavanja od prošlih godina je ovde: https://www.youtube.com/playlist?list=PLsxDZRiYEvxcVyOGq49vkQyqi6vRnVEEk
 
 ---
-### Predavanja su utorkom od 10:00 (9:15) do 13:00 (3x45 min)
-### Vežbe su petkom od 16:00 (16:15) do 18:00 (2x45 min), u saradnji sa asistentkinjom Jasminom Horvat
-### Konsultacije su utorkom pre ili posle predavanja (do 14:00)
+### Predavanja su utorkom od 13:00 (13:15) do 16:00 (3x45 min)
+### Vežbe su sredom od 12:00 (12:15) do 14:00 (2x45 min), u saradnji sa asistentkinjom Jasminom Horvat
+### Konsultacije su utorkom pre ili posle predavanja.
 ---
 
 ## Ocenjivanje
 ### U ocenu ulaze: 
-### Predispitne obaveze: Domaći zadaci (2 x 13.3333%), Izvestaji sa prakticnih (numerickih) vezbi (13.3333%).
+### Predispitne obaveze: Domaći zadaci (3 x 10%), Izvestaji sa prakticnih (numerickih) vezbi (2 x 10%).
 ### Završni ispit (uključuje i usmeni, 60%). 
 ### Moguće je osloboditi se jednog zadatka (33% u relativnom smislu, 20% u apsolutnom) preko kolokvijuma. 
 ---
