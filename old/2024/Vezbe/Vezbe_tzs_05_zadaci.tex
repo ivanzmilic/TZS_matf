@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage[colorlinks=true]{hyperref}
+
+
+\title{TZS Ve\v{z}be: 5. Nedelja, 06/11/2023}
+\author{Jasmina Horvat, Ivan Mili\'{c}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Zadatak 1}
+Za gas koji se sastoji samo od neutralnog i jonizovanog vodonika (i elektrona), ispitati kako za fiksnu temperaturu (npr, T=7000\,K), stepen jonizacije gasa zavisi od pritiska (razumne vrednosti pritiska mogu i\'{c}i od $10^5$ do 1 Pa)
+
+\section{Zadatak 2}
+
+Jednostavan model formiranja spektralnih linija pretpostavlja sloj gasa fiksne temperature kroz koji prolazi zracenje koje je emitovala zvezda ispod, za koju pretpostavljamo da zra\v{c}i kao crno telo. Ako uzmemo da, u spektralnoj liniji, opti\v{c}ka dubina zavisi od talasne du\v{z}ine kao neka Gausova funkcija, isplotujte (koristeći npr python) izlazni spektar zračenja za različite odnose temperatura zvezde i atmosfere, kao i za različite optičke dubine u centru linije (detaljno ćemo ove teme pokriti za nekoliko nedelja, ali dobro je da već razmišljamo o linijama!). Obratite pa\v{z}nju da linija lokalno apsorbuje po Gausovoj raspodeli ali izlazni oblik linije nije Gausova funkcija!
+
+\section{Zadatak 3}
+Sada \'{c}emo uvesti tzv. Schwarzschild-Milne operatore. To su operatori koji preslikavaju funkciju izvora $S(\tau)$ u srednji intenzitet, fluks i K integral. Oni u sebi, implicitno, sadr\v{z}e re\v{s}enje jedna\v{c}ine prenosa i odgovaraj\'{c}u integraciju po uglovima. 
+
+Izvedite izraze za ova tri operatora i uo\v{c}ite pojavu tzv. eksponencijalnih integrala:
+\begin{equation}
+E_n(x) = \int_1^{\infty} \frac{e^{-xt}}{t^n} dt.
+\end{equation}
+
+Trebalo bi da dobijete da operatori imaju oblik: 
+
+\begin{equation}
+\int_0^{\infty} E_n(|\tau-t|) S(t) dt.
+\end{equation}
+
+Eksponencijalni operator se ovde pona\v{s}a kao \emph{kernel}. Koriste\'{c}i Python ili sli\v{c}no isplotujte ove funkcije i prodiskutujte njihovo pona\v{s}anje. 
+
+\section{Zadatak 4}
+
+Izvesti tzv. difuznu aproksimaciju. Tj izraz koji povezuje Fluks sa gradijentom temperature: 
+
+\begin{equation}
+\mathcal{F} = \frac{16}{3} \frac{\sigma}{\overline{\chi}} T^3 \frac{dT}{dz}
+\end{equation}
+
+\end{document}
+
