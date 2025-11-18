@@ -1,4 +1,4 @@
-# TZS23
+# TZS2026/26
 
 -------------------------------------------------------------------
 ## Ovaj github page (i repo koji ide uz njega) sadrže sve materijale za predmet "Teorija Zvezdanih Spektara". Materijali bivaju dopunjeni (i, nadam se, unapredjeni) svake godine.
