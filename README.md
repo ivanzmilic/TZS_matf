@@ -2,7 +2,6 @@
 
 -------------------------------------------------------------------
 ## Ovaj github page (i repo koji ide uz njega) sadrže sve materijale za predmet "Teorija Zvezdanih Spektara". Materijali bivaju dopunjeni (i, nadam se, unapredjeni) svake godine.
-## ~ NOVO ~ Kolokvijum je zakazan za 22/11/2024!
 
 #### Ovde ćemo hostovati:
 
@@ -17,23 +16,29 @@
 
 ---
 ### Predavanja su utorkom od 13:00 (13:15) do 16:00 (3x45 min)
-### Vežbe su sredom od 12:00 (12:15) do 14:00 (2x45 min), u saradnji sa asistentkinjom Jasminom Horvat
+### Vežbe su sredom od 09:00 (09:15) do 11:00 (2x45 min), u saradnji sa asistentkinjom Vinkom Dakić
 ### Konsultacije su utorkom pre ili posle predavanja.
 ---
 
 ## Ocenjivanje
 ### U ocenu ulaze: 
-### Predispitne obaveze: Domaći zadaci (3 x 10%), Izvestaji sa prakticnih (numerickih) vezbi (2 x 10%).
-### Završni ispit (uključuje i usmeni, 60%). 
-### Moguće je osloboditi se jednog zadatka (33% u relativnom smislu, 20% u apsolutnom) preko kolokvijuma. 
+### Predispitne obaveze: Domaći zadaci / praktične vežbe - 4 x 15%.
+### Završni ispit (uključuje i usmeni) - 50%. 
+### Moguće je osloboditi se jednog zadatka na pismenom (20% ocene) preko kolokvijuma. 
 ---
 ##
 ### Domaći Zadaci: 
-Rok za predaju drugog domaćeg zadatka je do pismenog ispita. 
+Prvi domaći će biti okačen 25.11 sa rokom za predaju 14.12. 
 ##
 ## Literatura: 
 Priložene skripte prof. Olge Atanacković i prof. Roba Ruttena
+
+Najbolja knjiga je "Stellar Atmospheres", Dmitrija Mihalasa, izdanje iz 1970, ali može da bude malo previše gusta. 
+
+"Observations and Analysis of Stellar Photospheres", Davida F. Gray-a je možda optimalna u smislu kombinovanja teorije i posmatranja. 
+
 Interpreting Astronomical Spectra (D. Emerson, Wiley 1996) - dosta dobro opisuje generalne koncepte u prenosu zračenja, i sumira čime se bavimo u našem kursu. Korisna i za Interpretaciju Astronomskih spektara (master kurs)
+
 Postoji knjiga na srpskom jeziku, "Teorijska Astrofizika", Prof. Mirjane Vukićević - Karabin, koja opisuje dobar deo našeg kursa. 
 
 ## Korisni linkovi:
