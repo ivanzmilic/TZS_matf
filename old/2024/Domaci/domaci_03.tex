@@ -4,10 +4,13 @@
 \usepackage{amsfonts}
 \usepackage[colorlinks=true]{hyperref}
 \usepackage{graphicx}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[english,main=serbian,provide=*]{babel}
+%\usepackage[T1,T2A]{fontenc}
+%\usepackage[utf8]{inputenc}
+\usepackage[english,serbian]{babel}
 %\selectlanguage{serbian}
+
+\usepackage{parskip}
+\setlength{\parskip}{5pt}
 
 \title{Prvi Doma\'{c}i zadatak}
 \author{TZS}
@@ -18,15 +21,13 @@
 
 U izradi doma\'{c}eg zadatka se mo\v{z}ete konsultovati medjusobno i sa mnom. Svaki doma\'{c}i koji predajete, medjutim, mora biti samostalno napisan. 
 
-\textbf{Rok za predaju ovog doma\'{c}eg zadatka je petak 31.12.2024.}
+\textbf{Rok za predaju ovog doma\'{c}eg zadatka je petak 31.12.2025. 23:59.}
 
 \section{Setup i atmosferski model}
 
 Cilj ovog zadatka je da sintetizujete profil spektralne linije u lokalnoj termodinamičkoj ravnoteži (LTE) iz datog atmosferskog modela (u ovom slučaju poznatog FALC modela iz rada Averett et al.\ 1993). Izračunaćete populacije atomskih nivoa koristeći Bolcmanovu i Sahinu jednačinu, zatim neprozračnost i funkciju izvora, i konačno rešiti JPZ. U procesu ćete takođe implementirati realističnu neprozračnost u kontinuumu.
 
-
-
-Koristite dati jednodimenzioni atmosferski model \texttt{falc.dat}. Učitajte ga pomoću \texttt{numpy.loadtxt} ili slične funkcije. Model ima više kolona, od kojih nam trebaju:
+Koristite dati jednodimenzioni atmosferski model dat u fajlu \texttt{falc71.dat}. Učitajte ga pomoću \texttt{numpy.loadtxt} ili slične funkcije. Model ima više kolona, od kojih nam trebaju:
 
 \begin{itemize}
     \item[0:] Log optičke dubine u kontinumu na 500\,nm: $\log \tau_{500}$
@@ -72,7 +73,7 @@ Koristite sledeće parametre:
     \item Energija jonizacije Mg\,II $\rightarrow$ Mg\,III: 15.035 eV
     \item Zastupljenost Mg: $3.8\times 10^{-5}$  
           \textbf{Pomnožiti sa 2 da se uračuna i Fe}
-    \item Particioni funkcionali: $Z_{\mathrm{Mg\,I}}=2$, $Z_{\mathrm{Mg\,II}}=1$, $Z_{\mathrm{Mg\,III}}=1$
+    \item Particione funkcije: $Z_{\mathrm{Mg\,I}}=2$, $Z_{\mathrm{Mg\,II}}=1$, $Z_{\mathrm{Mg\,III}}=1$
 \end{itemize}
 
 Ponovo izračunajte elektronsku gustinu. Trebalo bi da dobijete znatno bolje slaganje sa modelom. Možete dodatno da varirate zastupljenost Mg ili particionu funkciju za Mg+ da dobijete još bolje rešenje.
@@ -83,7 +84,7 @@ Ponovo izračunajte elektronsku gustinu. Trebalo bi da dobijete znatno bolje sla
 
 Pre sinteze profila linije potrebno je odrediti \textbf{neprozračnost u kontinuumu} i onda rešiti JPZ za kontinuum.
 
-Dominantni izvori neprozračnosti u vidljivom domenu su negativni jon vodonika $\mathrm{H}^-$ i neutralni vodonik.  Kontinualni opacitet definišemo kao:
+Dominantni izvori neprozračnosti u vidljivom domenu su negativni jon vodonika $\mathrm{H}^-$ i neutralni vodonik.  Neprozračnost u kontinuumu definišemo definišemo kao:
 
 \begin{equation}
     \chi_\lambda^{\mathrm{cont}}
@@ -111,13 +112,13 @@ U diskretnoj formi:
       + \chi_{\lambda,i}^{\mathrm{cont}}\,(z_{i+1}-z_i).
 \end{equation}
 
-\subsubsection*{Kontinualni izvorni funkcional}
+Kao i za linije pretpostavićemo LTR za funkciju izvora, pa nam ne treba eksplicitno koeficijent emisije.
 
 \begin{equation}
     S_{\lambda}^{\mathrm{cont}} = B_{\lambda}(T).
 \end{equation}
 
-\subsubsection*{Kontinualni intenzitet}
+\subsubsection*{Rešavanje JPZ}
 
 Kao i za liniju, koristimo formalno rešenje:
 
@@ -134,9 +135,9 @@ Na dnu atmosfere:
     = B_{\lambda}(T(\tau_{\max})).
 \end{equation}
 
-Na kraju prikažite kontinualni intenzitet i proverite da li ima fizički smisao.
+Na kraju izračunajte izlazi intenzitet u kontinuumu na nekom razumnom intervalu talasnih dužina (recimo od 100 do 1000 nm) i proverite da li ima fizički smisao. Npr, da li vidite ikakav Balmerov i Pašenov skok.
 
-\subsection{Korak 3: Populacije nivoa}
+\subsection{Korak 4: Populacije nivoa}
 
 Izaberite spektralnu liniju koju ćete sintetisati.  Ne mora biti linija vodonika ili magnezijuma, mada je lakše uzeti neku od njih.  Na primer, Mg\,I b2 linija na 517.2\,nm.
 
@@ -144,98 +145,75 @@ Potrebni podaci (energije nivoa, statističke težine $g=2J+1$) mogu se preuzeti
 
 \url{https://physics.nist.gov/PhysRefData/ASD/lines_form.html}
 
-Bolcmanova formula za populacije nivoa glasi:
+Bolcmanova formula za populacije nivoa je:
 
 \begin{equation}
     n_{j,i} = n_j\, g_i\,
              \frac{\exp(-E_i/kT)}{Z_j(T)}.
 \end{equation}
 
-Prikažite promenu nivoa populacija sa visinom.
+Prikažite kako populacije vaša dva omiljena nivoa zavise od visine. 
 
-\subsection{Korak 4: Opacitet linije i izvorni funkcional}
+\subsection{Korak 5: Neprozračnost u liniji}
 
-U LTE važi $S_\nu = B_\nu(T)$. Fokusiramo se na opacitet:
+U LTE važi $S_\nu = B_\nu(T)$. Fokusiramo se na:
 
 \begin{equation}
     \chi_\nu = (n_l B_{lu} - n_u B_{ul})
                \frac{h\nu}{4\pi}\,\phi(\nu).
 \end{equation}
 
-Sa NIST baze preuzmite $A_{ul}$ i iz njega izvedite $B_{ul}$ i $B_{lu}$ uz relacije sa časa.
+Sa NIST baze preuzmite $A_{ul}$ i iz njega izvedite $B_{ul}$ i $B_{lu}$.
 
 
+\subsection{Korak 6: Apsorpcioni profil linije}
 
-
-\subsection{Korak 6: Profil linije}
-
-Sada određujemo zavisnost od frekvencije/talasne dužine.  
-Izaberite opseg talasnih dužina i za svaku dubinu računajte:
+Sada određujemo zavisnost neprozračnosti od frekvencije/talasne dužine.  
+Izaberite opseg talasnih dužina i za svaku dubinu izračunajte:
 
 \begin{itemize}
-    \item Doplerovu širinu iz mase i temperature
+    \item Doplerovu širinu iz mase atoma i temperature
     \item Damping frekvenciju (možete uzeti $\Gamma=A_{ul}$)
-    \item Bezdimenzioni pomak $u = (\nu-\nu_0)/\Delta\nu_D$
+    \item Zatim, tzv. bezdimenzionu frekvenciju: $u = (\nu-\nu_0)/\Delta\nu_D$
     \item Damping parametar $a=\Gamma/(4\pi\Delta\nu_D)$
-    \item Voigtov profil $\phi(\nu)$
+    \item Voigtov profil $\phi(u, a)$
 \end{itemize}
 
-Zatim izračunajte opacitet linije:
+Zatim izračunajte:
 
 \begin{equation}
     \chi_\nu = (n_l B_{lu} - n_u B_{ul})
                \frac{h\nu}{4\pi}\phi(\nu).
 \end{equation}
 
-\subsection{Korak 7: Optička dubina linije i izvorni funkcional}
+\subsection{Korak 7: Optička dubina u liniji i funkcija izvora}
 
-Integracijom opaciteta dobijamo optičku dubinu linije.  
-Izvorni funkcional u LTE je $B_\nu(T)$.
+\textbf{Ukupna neprozračnost je zbir neprozračnosti u kontinuumu i liniji}
 
-\textbf{Ukupna optička dubina je zbir kontinualne i linijske optičke dubine.}
+Integracijom neprozračnosti dobijamo ukupno optičku dubinu. Funkcija izvora u LTE je $B_\nu(T)$.
 
 Prikažite $S_\lambda(\tau_\lambda)$ za više talasnih dužina radi provere.
 
 \subsection{Korak 8: Formalno rešenje jednačine prenosa}
 
-Radiativni prenos glasi:
-
-\begin{equation}
-    \frac{dI_\nu}{d\tau_\nu} = I_\nu - S_\nu.
-\end{equation}
-
-Koristimo formalno rešenje:
-
-\begin{equation}
-    I(\tau_i)
-    = I(\tau_{i+1}) e^{-(\tau_{i+1}-\tau_i)}
-    + S(\tau_i)\left( 1 - e^{-(\tau_{i+1}-\tau_i)} \right).
-\end{equation}
-
-Na dnu atmosfere:
-
-\begin{equation}
-    I_\nu(\tau_{\max}) = B_\nu(T(\tau_{\max})).
-\end{equation}
-
-Prikažite emergentni spektar kao funkciju talasne dužine.
+Iskoristite isto numeričko rešenje kao i gore, a i na času da izračunate spektar vaše linije! Prikažite izlazni spektar kao funkciju talasne dužine.
 
 \subsection{Diskusija}
 
-Kada sve proradi, možete eksperimentisati:
+Kada sve proradi, možete eksperimentisati sa:
 
 \begin{itemize}
-    \item promenom donjeg nivoa,
-    \item uključivanjem sudarnog proširenja,
-    \item uvođenjem brzina radi linijske asimetrije,
-    \item izborom različitih atomskih vrsta,
-    \item promenom atmosferskog modela.
+    \item promenom energije donjeg nivoa,
+    \item uključivanjem realističnijeg sudarnog širenja,
+    \item uvođenjem polja brzina 
+    \item izborom različitih atoma 
+    \item promenom atmosferskog modela (možete podići ili spustiti temperaturu)
 \end{itemize}
 
 \section{Predaja}
 
 \begin{itemize}
-    \item Kratak izveštaj (cca 5 strana) sa metodologijom i grafikonom.
+    \item Kratak izveštaj (cca 5-7 strana) sa metodologijom i plotovima.
     \item Rok: 31.\ decembar 2025.\ u 23:59.
     \item Python kod (opciono, samo ako nešto ne radi).
 \end{itemize}
