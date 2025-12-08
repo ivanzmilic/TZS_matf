@@ -44,30 +44,38 @@ Postoji knjiga na srpskom jeziku, "Teorijska Astrofizika", Prof. Mirjane Vukiće
 
 ### Kurikulum kursa (podložno malim promenama): 
 
-1) *(18. Novembar)* Uvod u kurs i dogovor oko ispitivanja i predispitnih obaveza. Kratka istorija spektroskopije i istraživanja zvezdanih atmosfera. Osnovne ideje o modelima zvezdanih atmosfera.
+1) *(Predavanje, 18. Novembar)* Uvod u kurs i dogovor oko ispitivanja i predispitnih obaveza. Kratka istorija spektroskopije i istraživanja zvezdanih atmosfera. Osnovne ideje o modelima zvezdanih atmosfera.
    
-2) *(19. Novembar)* Spektrofotometrijske veličine, specifični monohromatski intenzitet i istorija zakona zračenja apsolutno crnog tela.
+1v) *(Vežbe, 19. Novembar)* Spektrofotometrijske veličine, specifični monohromatski intenzitet i istorija zakona zračenja apsolutno crnog tela.
  
-3) *(25. Novembar)* Jednačina prenosa u formi "duž zraka". Funkcija izvora i optička dubina. Formalno rešenje JPZ. Plan-paralelne i sferne atmosfere. Formalno rešenje u zavisnosti od visine i ugla u jednodimenzionoj atmosferi.
+2) *(Predavanje, 25. Novembar)* Jednačina prenosa u formi "duž zraka". Funkcija izvora i optička dubina. Formalno rešenje JPZ. Plan-paralelne i sferne atmosfere. Formalno rešenje u zavisnosti od visine i ugla u jednodimenzionoj atmosferi.
 
-4) *(2. Decembar)* Mehanizmi apsorpcije i emisije. Apsorpcija u kontinuumu. Izrazi za neprozracnost za b-f i f-f prelaze. Negativan jon vodonika. Koncept sive atmosfere. Čas je održan online.
+2v) *(Vežbe, 26. Novembar)* Neka jednostavna rešenja jednačine prenosa
 
-5) *(3. Decembar)* Ravnotežne raspodele i jednačinja stanja gasa u zvezdanim atmosferama.
+3) *(Predavanje, 2. Decembar)* Otkazano, nadoknadjeno sledećeg data
 
-6) *(31. Oktobar)*  Mehanizmi apsorpcije i emisije. Apsorpcija u liniji i kontinuumu. Izrazi za neprozracnost za b-b, b-f i f-f prelaze. Negativan jon vodonika. Koncept sive atmosfere. Čas je održan online, i snimak je dostupan.
+3v) *(Predavanje, 3. Decembar)* Ravnotežne raspodele i jednačinja stanja gasa u zvezdanim atmosferama.
 
-7) *(14. Novembar)* Koncept ravnoteže zračenja. Momenti JPZ i modelovanje zvezdanih atmosfera u ravnoteži zračenja i LTR.
+4) *(Predavanje, 9. Decembar)* Mehanizmi apsorpcije i emisije. Apsorpcija u kontinuumu. Izrazi za neprozracnost za b-f i f-f prelaze. Negativan jon vodonika 
 
-8)  *(21. Novembar)* Raspodela temperature u sivoj atmosferi u RZ i LTR. Milnova integralna jednačina. Hopfovo rešenje. Aproksimativna rešenja sivog problema (Švarcšild – Šusterovo, Edingtonovo). Potamnjenje ka rubu (poređenje sa posmatranjem). 
 
-9) *(25. Novembar) * Ne-sive atmosfere. Uticaj odstupanja koeficijenta apsorpcije u kontinuumu od sivog na izlazni fluks u kontinuumu.  Model ne-sive atmosfere u LTR i RZ. Procedura temperaturske korekcije. Raspodela pritiska – integracija jednačine hidrostatičke ravnoteže.  + Numeričko rešavanje Milneaovog problema. 
 
-10)  *(12. Decembar)* Uvod u spektralne linije. Koeficijenti apsorpcije i emisije u liniji (izvođenje).
+Pending:
 
-11) *(15. Decembar)* Prirodno širenje. Doplerovo širenje. Sudarno širenje. Drugi mehanizmi širenja spektralnih linija (rotacija, turbulencija, magnetno polje, gravitaciono polje). Fojtov profil. 
+7) *(31. Oktobar)*  Mehanizmi apsorpcije i emisije. Apsorpcija u liniji i kontinuumu. Izrazi za neprozracnost za b-b, b-f i f-f prelaze. Negativan jon vodonika. Koncept sive atmosfere. Čas je održan online, i snimak je dostupan.
 
-12) *(19. Decembar)* Modeli formiranja spektralnih linija. Rasejanje. Klasični modeli (Švarcšildov model - LTR, Šusterov model čistog rasejanja, Milne-Eddingtonov model).
+8) *(14. Novembar)* Koncept ravnoteže zračenja. Momenti JPZ i modelovanje zvezdanih atmosfera u ravnoteži zračenja i LTR.
 
-13) *(20. Decembar).* Primena numeričkog rešenja JPZ na problem formiranja linija sa naležućim kontinuumom. 
+9)  *(21. Novembar)* Raspodela temperature u sivoj atmosferi u RZ i LTR. Milnova integralna jednačina. Hopfovo rešenje. Aproksimativna rešenja sivog problema (Švarcšild – Šusterovo, Edingtonovo). Potamnjenje ka rubu (poređenje sa posmatranjem). 
 
-14)  *(26. Decembar).* Kompletna redistribucija, rasejanje i jednačina statističke ravnoteže za atom sa dva i više nivoa. Zaključna diskusija. 
+10) *(25. Novembar) * Ne-sive atmosfere. Uticaj odstupanja koeficijenta apsorpcije u kontinuumu od sivog na izlazni fluks u kontinuumu.  Model ne-sive atmosfere u LTR i RZ. Procedura temperaturske korekcije. Raspodela pritiska – integracija jednačine hidrostatičke ravnoteže.  + Numeričko rešavanje Milneaovog problema. 
+
+11)  *(12. Decembar)* Uvod u spektralne linije. Koeficijenti apsorpcije i emisije u liniji (izvođenje).
+
+12) *(15. Decembar)* Prirodno širenje. Doplerovo širenje. Sudarno širenje. Drugi mehanizmi širenja spektralnih linija (rotacija, turbulencija, magnetno polje, gravitaciono polje). Fojtov profil. 
+
+13) *(19. Decembar)* Modeli formiranja spektralnih linija. Rasejanje. Klasični modeli (Švarcšildov model - LTR, Šusterov model čistog rasejanja, Milne-Eddingtonov model).
+
+14) *(20. Decembar).* Primena numeričkog rešenja JPZ na problem formiranja linija sa naležućim kontinuumom. 
+
+15)  *(26. Decembar).* Kompletna redistribucija, rasejanje i jednačina statističke ravnoteže za atom sa dva i više nivoa. Zaključna diskusija. 
