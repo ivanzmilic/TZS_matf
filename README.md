@@ -46,19 +46,27 @@ Postoji knjiga na srpskom jeziku, "Teorijska Astrofizika", Prof. Mirjane Vukiće
 
 1) *(Predavanje, 18. Novembar)* Uvod u kurs i dogovor oko ispitivanja i predispitnih obaveza. Kratka istorija spektroskopije i istraživanja zvezdanih atmosfera. Osnovne ideje o modelima zvezdanih atmosfera.
    
-1v) *(Vežbe, 19. Novembar)* Spektrofotometrijske veličine, specifični monohromatski intenzitet i istorija zakona zračenja apsolutno crnog tela.
+ *(Vežbe, 19. Novembar)* Spektrofotometrijske veličine, specifični monohromatski intenzitet i istorija zakona zračenja apsolutno crnog tela.
  
 2) *(Predavanje, 25. Novembar)* Jednačina prenosa u formi "duž zraka". Funkcija izvora i optička dubina. Formalno rešenje JPZ. Plan-paralelne i sferne atmosfere. Formalno rešenje u zavisnosti od visine i ugla u jednodimenzionoj atmosferi.
 
-2v) *(Vežbe, 26. Novembar)* Neka jednostavna rešenja jednačine prenosa
+ *(Vežbe, 26. Novembar)* Neka jednostavna rešenja jednačine prenosa
 
-3) *(Predavanje, 2. Decembar)* Otkazano, nadoknadjeno sledećeg data
+3) *(Predavanje, 2. Decembar)* Otkazano, nadoknadjeno sledećeg dana
 
-3v) *(Predavanje, 3. Decembar)* Ravnotežne raspodele i jednačinja stanja gasa u zvezdanim atmosferama.
+*(Predavanje, 3. Decembar)* Neprozračnost u kontinuumu: Ravnotežne raspodele i jednačinja stanja gasa u zvezdanim atmosferama.
 
-4) *(Predavanje, 9. Decembar)* Mehanizmi apsorpcije i emisije. Apsorpcija u kontinuumu. Izrazi za neprozracnost za b-f i f-f prelaze. Negativan jon vodonika 
+4) *(Predavanje, 9. Decembar)* Neprozračnost u kontinuumu: Mehanizmi apsorpcije i emisije. Izrazi za neprozracnost za b-f i f-f prelaze. Negativan jon vodonika
 
+   Vežbe, 10. Decembar: Rešavanje jednačine stanja.
 
+5) *(Predavanje, 16. Decembar)* Ravnoteža Zračenja: Milneov Problem i siva atmosfera
+
+6) *(Predavanje, 23. Decembar)* Otkazano
+
+   Vežbe, 24. Decembar: Rešavanje Milneovog problema Edingtonovom metodom. 
+
+7) *Predavanje, 30. Decembar) * Modelovanje ne-sivih atmosfera
 
 Pending:
 
