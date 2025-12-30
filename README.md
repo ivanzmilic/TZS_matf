@@ -45,30 +45,30 @@ Postoji knjiga na srpskom jeziku, "Teorijska Astrofizika", Prof. Mirjane Vukiće
 ### Kurikulum kursa (podložno malim promenama): 
 
 1) *(Predavanje, 18. Novembar)* Uvod u kurs i dogovor oko ispitivanja i predispitnih obaveza. Kratka istorija spektroskopije i istraživanja zvezdanih atmosfera. Osnovne ideje o modelima zvezdanih atmosfera.
-   
-1v) *(Vežbe, 19. Novembar)* Spektrofotometrijske veličine, specifični monohromatski intenzitet i istorija zakona zračenja apsolutno crnog tela.
+
+   Vežbe, 19. Novembar: Spektrofotometrijske veličine, specifični monohromatski intenzitet i istorija zakona zračenja apsolutno crnog tela.
  
 2) *(Predavanje, 25. Novembar)* Jednačina prenosa u formi "duž zraka". Funkcija izvora i optička dubina. Formalno rešenje JPZ. Plan-paralelne i sferne atmosfere. Formalno rešenje u zavisnosti od visine i ugla u jednodimenzionoj atmosferi.
 
-2v) *(Vežbe, 26. Novembar)* Neka jednostavna rešenja jednačine prenosa
+   Vežbe, 26. Novembar: Neka jednostavna rešenja jednačine prenosa
 
-3) *(Predavanje, 2. Decembar)* Otkazano, nadoknadjeno sledećeg data
+3) *(Predavanje, 2. Decembar)* Otkazano, nadoknadjeno sledećeg dana
 
-3v) *(Predavanje, 3. Decembar)* Ravnotežne raspodele i jednačinja stanja gasa u zvezdanim atmosferama.
+   Predavanje umesto vežbi, 3. Decembar: Neprozračnost u kontinuumu: Ravnotežne raspodele i jednačinja stanja gasa u zvezdanim atmosferama.
 
-4) *(Predavanje, 9. Decembar)* Mehanizmi apsorpcije i emisije. Apsorpcija u kontinuumu. Izrazi za neprozracnost za b-f i f-f prelaze. Negativan jon vodonika 
+4) *(Predavanje, 9. Decembar)* Neprozračnost u kontinuumu: Mehanizmi apsorpcije i emisije. Izrazi za neprozracnost za b-f i f-f prelaze. Negativan jon vodonika
 
+   Vežbe, 10. Decembar: Rešavanje jednačine stanja.
 
+5) *(Predavanje, 16. Decembar)* Ravnoteža Zračenja: Milneov Problem i siva atmosfera
+
+6) *(Predavanje, 23. Decembar)* Otkazano
+
+   Vežbe, 24. Decembar: Rešavanje Milneovog problema Edingtonovom metodom. 
+
+7) *(Predavanje, 30. Decembar) * Modelovanje ne-sivih atmosfera. Procedura temperaturske korekcije. Raspodela pritiska – integracija jednačine hidrostatičke ravnoteže.
 
 Pending:
-
-7) *(31. Oktobar)*  Mehanizmi apsorpcije i emisije. Apsorpcija u liniji i kontinuumu. Izrazi za neprozracnost za b-b, b-f i f-f prelaze. Negativan jon vodonika. Koncept sive atmosfere. Čas je održan online, i snimak je dostupan.
-
-8) *(14. Novembar)* Koncept ravnoteže zračenja. Momenti JPZ i modelovanje zvezdanih atmosfera u ravnoteži zračenja i LTR.
-
-9)  *(21. Novembar)* Raspodela temperature u sivoj atmosferi u RZ i LTR. Milnova integralna jednačina. Hopfovo rešenje. Aproksimativna rešenja sivog problema (Švarcšild – Šusterovo, Edingtonovo). Potamnjenje ka rubu (poređenje sa posmatranjem). 
-
-10) *(25. Novembar) * Ne-sive atmosfere. Uticaj odstupanja koeficijenta apsorpcije u kontinuumu od sivog na izlazni fluks u kontinuumu.  Model ne-sive atmosfere u LTR i RZ. Procedura temperaturske korekcije. Raspodela pritiska – integracija jednačine hidrostatičke ravnoteže.  + Numeričko rešavanje Milneaovog problema. 
 
 11)  *(12. Decembar)* Uvod u spektralne linije. Koeficijenti apsorpcije i emisije u liniji (izvođenje).
 
