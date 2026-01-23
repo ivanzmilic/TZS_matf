@@ -1,7 +1,10 @@
-# TZS2026/26
+# TZS2025/26
 
 -------------------------------------------------------------------
 ## Ovaj github page (i repo koji ide uz njega) sadrže sve materijale za predmet "Teorija Zvezdanih Spektara". Materijali bivaju dopunjeni (i, nadam se, unapredjeni) svake godine.
+-------------------------------------------------------------------
+## NOVO: Snimak časa o uvodu u spektralne linije nalazi se ovde:
+https://youtu.be/xBXlhEdeHOg
 
 #### Ovde ćemo hostovati:
 
