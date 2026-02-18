@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{graphicx}
+
+\title{Tre\'{c}i Doma\'{c}i zadatak}
+\author{TZS}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+U izradi doma\'{c}eg zadatka se mo\v{z}ete konsultovati medjusobno i sa mnom. Svaki doma\'{c}i koji predajete, medjutim, mora biti samostalno napisan. 
+
+\textbf{Rok za predaju ovog doma\'{c}eg zadatka je petak 07.03.2026. Doma\'{c}i nosi 20 poena.}
+
+\section*{Zadatak 1}
+
+Razmatramo spektralnu liniju koja se formira u LTR u Milne-Edingtonovoj atmosferi:
+\begin{equation}
+S = a + b\tau_c
+\end{equation}
+i ima neprozra\v{c}nost u liniji oblika: 
+\begin{equation}
+\tau_\lambda^L = \tau_c \eta \phi_\lambda
+\end{equation}
+gde $\eta$ zovemo ja\v{c}inom linije, a $\phi_\lambda$ je apsorpcioni profil linije.
+
+\begin{enumerate}
+    
+    
+    \item Pokazati da je izlazni intenzitet na vrhu atmosfere (t. izlazni spektar) dat izrazom (setite se ve\v{z}bi!): 
+    \begin{equation}
+    I_\lambda = a + \frac{b\mu}{1 + \eta \phi_\lambda}.
+    \end{equation}
+
+    \item Za liniju koja ima centralnu talasnu du\v{z}inu $\lambda_0=630$~nm i Doplerov profil, izra\v{c}unati profil za $T=6000$~K. Normirati profil tako da mu \textbf{maksimum bude 1} i isplotovati ga. Za ovo mo\v{z}ete koristiti Python ili koji god programski jezik vam odgovara. Pretpostaviti, npr. da je a=b=0.5.
+
+    \item Nacrtati profil za razli\v{c}ite vrednosti $\eta$. (Recimo od 1 do $10^5$). Pokazati da se dubina linije povećava sa jačinom linije $\eta$ i da se zasićuje na vrednosti $I_\lambda=a$ kada $\eta$ postane veoma veliko.
+
+    \item Pokazati da dubina linije takodje zavisi od parametra $b$. Nacrtati profil za različite vrednosti $b$ (recimo od 0.1 do 1) i pokazati da se dubina linije povećava sa $b$. Prodiskutujte.
+
+    \item Pokazati da se oblik linije menja sa $\mu$. Nacrtati profil za različite vrednosti $\mu$ (recimo od 0.1 do 1) i prodiskutujte oblik linije. \v{S}ta se de\v{s}ava sa dubinom linije kada $\mu$ postane 0? Objasniti.
+\end{enumerate}
+
+\section*{Zadatak 2}
+
+Sa stranice: \href{https://bass2000.obspm.fr/solar_spect.php}{BASS2000}, preuzmite spektar linije neutralnog gvo\v{z}\v{d}a (Fe I) sa centralnom talasnom du\v{z}inom $\lambda_0=617.3$~nm (6173\,\AA). 
+
+\begin{enumerate}
+    
+    \item Nacrtajte (tj. isplotujte) profil linije i odredite dubinu linije, odnosno vrednost $I_\lambda$ u centru linije. 
+
+    \item Pod pretpostavkom da intenzitet u kontinuumu treba da bude jednak 1, i da se linija formira po modelu iz prethodnog zadatka, odredite konstante $a$ i $b$ na osnovu spektra linije. Pod pretpostavkom da temperatura kontinuuma treba da bude oko 6200~K, odredite temperaturu sloja u kom se formira centar linije. 
+    
+    \item Poku\v{s}ajte da procenite doplerovu \v{s}irinu linije, i odredite temperaturu gvo\v{z}\v{d}a u atmosferi Sunca. Da li ste o\v{c}ekivali da dobijete tu temperaturu? Objasnite.
+
+\end{enumerate}
+
+\end{document}
+
