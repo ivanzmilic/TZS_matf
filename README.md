@@ -46,9 +46,9 @@ Postoji knjiga na srpskom jeziku, "Teorijska Astrofizika", Prof. Mirjane Vukiće
 
 ### Kurikulum kursa (podložno malim promenama): 
 
-1) *(Predavanje, 18. Novembar)* Uvod u kurs i dogovor oko ispitivanja i predispitnih obaveza. Kratka istorija spektroskopije i istraživanja zvezdanih atmosfera. Osnovne ideje o modelima zvezdanih atmosfera.
+1) *(Predavanje, 9. Oktobar)* Uvod u kurs i dogovor oko ispitivanja i predispitnih obaveza. Kratka istorija spektroskopije i istraživanja zvezdanih atmosfera. Osnovne ideje o modelima zvezdanih atmosfera.
 
-   Vežbe, 19. Novembar: Spektrofotometrijske veličine, specifični monohromatski intenzitet i istorija zakona zračenja apsolutno crnog tela.
+   Vežbe, 14. Oktobar: Podsetnik na zakone zračenja, statističke ravnotežne raspodele ,itd.
  
 2) *(Predavanje, 25. Novembar)* Jednačina prenosa u formi "duž zraka". Funkcija izvora i optička dubina. Formalno rešenje JPZ. Plan-paralelne i sferne atmosfere. Formalno rešenje u zavisnosti od visine i ugla u jednodimenzionoj atmosferi.
 
