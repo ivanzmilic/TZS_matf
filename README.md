@@ -1,11 +1,8 @@
-# TZS2025/26
+# TZS2026/27
 
 -------------------------------------------------------------------
 ## Ovaj github page (i repo koji ide uz njega) sadrže sve materijale za predmet "Teorija Zvezdanih Spektara". Materijali bivaju dopunjeni (i, nadam se, unapredjeni) svake godine.
 -------------------------------------------------------------------
-## NOVO: Snimak časa o uvodu u spektralne linije nalazi se ovde:
-https://youtu.be/xBXlhEdeHOg
-
 #### Ovde ćemo hostovati:
 
 - Slajdove sa predavanja 
@@ -19,8 +16,8 @@ https://youtu.be/xBXlhEdeHOg
 
 ---
 ### Predavanja su utorkom od 13:00 (13:15) do 16:00 (3x45 min)
-### Vežbe su sredom od 09:00 (09:15) do 11:00 (2x45 min), u saradnji sa asistentkinjom Vinkom Dakić
-### Konsultacije su utorkom pre ili posle predavanja.
+### Vežbe su sredom od 10:00 (09:15) do 12:00 (2x45 min), u saradnji sa asistentkinjom Jasminom Horvat
+### Konsultacije su utorkom pre ili posle predavanja, ili po dogovoru mailom. 
 ---
 
 ## Ocenjivanje
@@ -43,6 +40,8 @@ Najbolja knjiga je "Stellar Atmospheres", Dmitrija Mihalasa, izdanje iz 1970, al
 Postoji knjiga na srpskom jeziku, "Teorijska Astrofizika", Prof. Mirjane Vukićević - Karabin, koja opisuje dobar deo našeg kursa. 
 
 ## Korisni linkovi:
+
+~ Za sada nista ~ 
 ---
 
 ### Kurikulum kursa (podložno malim promenama): 
