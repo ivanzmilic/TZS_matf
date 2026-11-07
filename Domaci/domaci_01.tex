@@ -1,0 +1,123 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{graphicx}
+\usepackage{parskip}
+% Define paragraph spacing now:
+\setlength{\parskip}{6pt}
+% A bit smaller margins
+\usepackage[margin=1in]{geometry}
+
+\title{Prvi Doma\'{c}i zadatak}
+\author{TZS}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+U izradi doma\'{c}eg zadatka se mo\v{z}ete konsultovati medjusobno i sa mnom. Svaki doma\'{c}i koji predajete, medjutim, mora biti samostalno napisan. Kod (Python ili koji god jezik vam odgovara) nemojte predavati zajedno sa re\v{s}enjem. Ako postoji neki bag ili sli\v{c}no, po\v{s}aljite odvojeno, uz obja\v{s}njenje.
+
+\textbf{Rok za predaju ovog doma\'{c}eg zadatka je ponedeljak 23.11.2026.}
+
+\section*{Zadatak 1}
+
+Razmatrajmo polubeskona\v{c}nu, plan-paralelnu atmosferu. Izlazni intenzitet na vrhu atmosfere u pravcu $\mu = \cos\theta > 0$ je (jednostavnosti radi, u daljem preska\v{c}emo zavisnost od talasne du\v{z}ine/frekvencije, po\v{s}to \'{c}emo razmatrati, za po\v{c}etak, jednu talasnu du\v{z}inu):
+\begin{equation}
+I(\tau=0, \mu) = \int_0^\infty S(t)\, e^{-t/\mu}\, \frac{dt}{\mu}.
+\end{equation}
+Na predavanjima smo videli da, ako je $S = a + b\tau$ (Milne-Eddingtonova, ili Milne-Barbier-Uns\"{o}ldova aproksimacija), va\v{z}i $I(\mu) = a + b\mu = S(\tau = \mu)$, tj. Eddington-Barbierova relacija je u tom slu\v{c}aju ta\v{c}na. U zvezdanim atmosferama, medjutim, funkcija izvora ima komplikovan oblik, pa se, u praksi, sva analiza danas zasniva na numeri\v{c}kim metodama.
+
+\subsection*{Numeri\v{c}ki pristup: metoda kratkih karakteristika}
+
+U realnim primenama funkcija izvora je zadata samo u diskretnim ta\v{c}kama $\tau_1 < \tau_2 < \dots < \tau_N$ (po konvenciji je $i=1$ vrh atmosfere) i integral iz jedna\v{c}ine (1) moramo re\v{s}iti numeri\v{c}ki. Jedan od naj\v{c}e\v{s}\'{c}e kori\v{s}\'{c}enih na\v{c}ina je metoda \emph{kratkih karakteristika} (eng. \emph{short characteristics}). Formalno re\v{s}enje JPZ primenimo na svaki interval izmedju dve susedne ta\v{c}ke posebno:
+\begin{equation}
+I(\tau_i, \mu) = I(\tau_{i+1}, \mu)\, e^{-\Delta_i} + \int_{\tau_i}^{\tau_{i+1}} S(t)\, e^{-(t-\tau_i)/\mu}\, \frac{dt}{\mu}, \qquad \Delta_i = \frac{\tau_{i+1} - \tau_i}{\mu},
+\end{equation}
+i krenemo od dna atmosfere ka vrhu. Integral na desnoj strani re\v{s}avamo analiti\v{c}ki, pod nekom pretpostavkom o pona\v{s}anju $S$ unutar intervala.
+
+Izvesti i implementirati dve verzije ove metode:
+\begin{itemize}
+    \item \textbf{Nultog reda:} funkcija izvora je konstantna unutar intervala i jednaka vrednosti u dubljoj ta\v{c}ki, $S_{i+1}$.
+    \item \textbf{Prvog reda:} funkcija izvora se linearno menja (u $\tau$) izmedju $S_{i+1}$ i $S_i$.
+\end{itemize}
+
+U oba slu\v{c}aja doprinos intervala treba da ima oblik $w_{i+1} S_{i+1} + w_i S_i$, gde te\v{z}ine $w$ zavise samo od $\Delta_i$. Izvedite izraze za te\v{z}ine. Za donji grani\v{c}ni uslov uzmite $I^+(\tau_N) = S(\tau_N)$. Za\v{s}to je to opravdano?
+
+Hint: Za veoma male $\Delta_i$, izraz $1-e^{-\Delta_i}$ (i jo\v{s} vi\v{s}e te\v{z}ine prvog reda) postaje numeri\v{c}ki nestabilan zbog oduzimanja dva skoro jednaka broja. Proverite \v{s}ta se de\v{s}ava i u tom slu\v{c}aju koristite razvoj u Tejlorov red (ili, npr., \texttt{numpy.expm1}).
+
+\subsection*{Testiranje.} 
+Pre nego \v{s}to primenimo metodu na realnu atmosferu, moramo da proverimo da li radi:
+
+\begin{itemize}
+    \item Za $S = a + b\tau$ (proizvoljne $a$, $b$) i nekoliko vrednosti $\mu$, uporedite numeri\v{c}ko re\v{s}enje sa ta\v{c}nim, $a+b\mu$. Pokazati da je metoda prvog reda ta\v{c}na (do na gre\v{s}ku koja dolazi od toga \v{s}to va\v{s}a diskretizacija ne po\v{c}inje od $\tau=0$), a da metoda nultog reda nije. Za\v{s}to?
+        
+    \item Za metodu nultog reda, ispitati kako gre\v{s}ka opada sa smanjenjem koraka u $\tau$.
+\end{itemize}
+
+\subsection*{Primena na model Sun\v{c}eve atmosfere.} 
+
+U fajlu \texttt{falc\_71.dat} dat je poznati model Sun\v{c}eve atmosfere FALC (Fontenla et al.\ 1993). Prvi red fajla je zaglavlje, a od kolona nam trebaju prve tri:
+\begin{itemize}
+    \item[0:] Log opti\v{c}ke dubine u kontinuumu na 500\,nm: $\log_{10} \tau_{500}$
+    \item[1:] Visina $z$ u cm
+    \item[2:] Temperatura $T$ u K
+\end{itemize}
+
+Pretpostavimo da je funkcija izvora jednaka Plankovoj funkciji, $S_\lambda = B_\lambda(T)$, i da je, zasad, atmosfera siva, tj.\ $\tau_\lambda = \tau_{500}$ na svim talasnim du\v{z}inama.
+
+\begin{itemize}
+
+\item Koriste\'{c}i metodu prvog reda, izra\v{c}unajte i isplotujte \emph{potamnjenje ka rubu}, $I_\lambda(\mu)/I_\lambda(\mu=1)$, za $\lambda = 300, 500$ i $1600$~nm. Na kojoj talasnoj du\v{z}ini je potamnjenje najja\v{c}e i za\v{s}to, ako je opti\v{c}ka dubina ista na svim talasnim du\v{z}inama?
+
+\item Isplotujte funkciju $S(\tau)e^{-\tau/\mu} \frac{\tau \ln~10}{\mu}$ (tzv. \emph{funkciju doprinosa}) u zavisnosti od $\log_{10}\tau$, za $\mu=1$ i $\mu=0.2$. Odakle dolazi zra\v{c}enje koje vidimo? Da li temperaturski porast u hromosferi (pogledajte $T(\log\tau)$!) uti\v{c}e na izlazni intenzitet?
+
+\item Sada pomno\v{z}ite opti\v{c}ku dubinu sa $r_\lambda$, za $1 \le r_\lambda \le 10^5$, i izrazite izlazni intenzitet preko \emph{temperature zra\v{c}enja} $T_{\mathrm{rad}}$, definisane sa $B_\lambda(T_{\mathrm{rad}}) = I^+_\lambda$. Isplotujte $T_{\mathrm{rad}}$ u zavisnosti od $r_\lambda$.
+\end{itemize}
+
+Napomena: velike vrednosti $r_\lambda$ odgovaraju centrima jakih spektralnih linija, o kojima \'{c}emo pri\v{c}ati kasnije u kursu. Ovaj deo zadatka je, dakle, prvi korak ka razumevanju kako spektralne linije ``vide'' hromosferu.
+
+\section*{Zadatak 2}
+
+Do sada smo pretpostavljali da je foton koji je ``apsorbovan'' uni\v{s}ten. U stvarnosti, ekstinkcija (slabljenje zraka) se sastoji od \emph{prave apsorpcije} (foton nestaje, njegova energija prelazi u termalnu energiju gasa) i \emph{rasejanja} (foton samo promeni pravac). U ovom zadatku \'{c}emo prou\v{c}iti razliku izmedju ova dva procesa, pomo\'{c}u jednostavne Monte Karlo simulacije putanja pojedina\v{c}nih fotona.
+
+Posmatramo homogeni plan-paralelni sloj ukupne opti\v{c}ke debljine $\tau_s$ ($\tau=0$ je vrh, $\tau=\tau_s$ dno), a sa $\mu$ ovde ozna\v{c}avamo kosinus ugla izmedju pravca fotona i normale. Pri svakoj interakciji foton je uni\v{s}ten sa verovatno\'{c}om $\varepsilon$, a sa verovatno\'{c}om $1-\varepsilon$ se izotropno raseje. 
+
+Simulacija za jedan foton izgleda ovako:
+\begin{enumerate}
+    \item Kre\'{c}emo iz neke ta\v{c}ke (vidi dole za grani\v{c}ne uslove). Znamo odakle foton kre\'{c}e i u kom pravcu.
+    \item Izvu\v{c}emo opti\v{c}ki put do slede\'{c}e interakcije na osnovu: $\Delta\tau = -\ln u$, gde je $u$ slu\v{c}ajan broj uniformno raspodeljen na $(0,1)$.
+    \item Pomeriti foton: $\tau \rightarrow \tau - \mu\,\Delta\tau$.
+    \item Ako je $\tau < 0$, foton je iza\v{s}ao kroz vrh.
+    \item Ako je $\tau > \tau_s$, foton je iza\v{s}ao kroz dno sloja.
+    \item U suprotnom, foton interaguje sa sredinom: sa verovatno\'{c}om $\varepsilon$ je uni\v{s}ten, a ina\v{c}e dobija novi pravac, $\mu$ uniformno raspodeljeno na $(-1,1)$ (sada moramo da razmatramo sve pravce). Vratiti se na korak 1.
+\end{enumerate}
+
+Implementirajte simulaciju (preporu\v{c}ujem da pratite sve fotone istovremeno, kao \texttt{numpy} nizove; $10^4$ fotona je dosta). Fotoni ulaze kroz dno sloja, normalno na njega ($\mu=1$, $\tau = \tau_s$). Za \v{c}istu apsorpciju ($\varepsilon=1$) proverite da je udeo transmitovanih fotona $T = e^{-\tau_s}$.
+
+\textbf{\v{C}isto rasejanje} ($\varepsilon = 0$). Izra\v{c}unati udeo transmitovanih ($T$) fotona za $\tau_s = 0.1, 0.3, 1, 3, 10, 30, 100$ i isplotovati ih, zajedno sa $e^{-\tau_s}$. Pokazati da $T$ opada pribli\v{z}no kao $1/\tau_s$, a ne eksponencijalno (npr. isplotujte $\tau_s T$). \v{S}ta onda zapravo predstavlja $e^{-\tau_s}$ u sloju koji samo rasejava? Primer iz svakodnevnog \v{z}ivota: kroz gust oblak ne vidimo Sunce, a ipak nije mrak. Objasnite.
+
+Za iste vrednosti $\tau_s$ izra\v{c}unati srednji broj rasejanja, posebno za transmitovane i posebno za reflektovane fotone. Pokazati da za transmitovane fotone srednji broj rasejanja raste pribli\v{z}no kao $\tau_s^2$. Objasnite ovo pomo\'{c}u modela slu\v{c}ajnog hoda (eng. \emph{random walk}): koliko se, u proseku, foton udalji od po\v{c}etne ta\v{c}ke posle $N$ koraka?
+
+\section*{Zadatak 3}
+
+Pretpostavimo da teleskopom pre\v{c}nika 1 metar posmatramo Sunce. Na\v{s} instrument je takav da jedan piksel na slici formiranoj u teleskopu odgovara kvadratu (pikselu) na Sun\v{c}evoj povr\v{s}ini stranice 50~km. Takodje, posmatramo na talasnoj du\v{z}ini 393~nm, u intervalu spektralne \v{s}irine 0.01~nm. Jednostavnosti radi, pretpostavi\'{c}emo da Sunce zra\v{c}i kao apsolutno crno telo temperature jednake efektivnoj temperaturi Sunca.
+
+\begin{enumerate}
+    \item Koliko fotona primi jedan piksel na\v{s}eg detektora u sekundi pri ovakvom posmatranju?
+    \item Broj detektovanih fotona podle\v{z}e Poasonovoj statistici, pa je odnos signal/\v{s}um $S/N = \sqrt{N}$. Koliko dugo treba da posmatramo da bismo postigli $S/N = 1000$ (tipi\v{c}an zahtev za, npr., merenje polarizacije)? Uporedite to vreme sa vremenom \v{z}ivota granule ($\sim 5$~min).
+\end{enumerate}
+
+\section*{Zadatak 4}
+
+Protuberance (eng. \emph{prominences}) i filamenti su po na\v{s}em trenutnom shvatanju jedni te isti objekti (videti sliku): relativno hladne koncentracije gasa koje pod uticajem magnetnog polja ``vise'' u Sun\v{c}evoj koroni. Filamente vidimo na disku: nevidljivi su u kontinuumu, ali se vide kao tamne ``trake'' na talasnim du\v{z}inama u centru jakih spektralnih linija (npr. H$\alpha$). Protuberance se, sa druge strane, vide iznad Sun\v{c}evog ruba kao svetle formacije u centru jakih spektralnih linija. Ukoliko su posmatra\v{c}ki uslovi izuzetni, mogu se videti i u kontinuumu. Koriste\'{c}i formalizam prenosa zra\v{c}enja, objasniti razliku izmedju protuberanci i filamenata.
+
+Pomo\'{c}: objekat je homogeni sloj opti\v{c}ke debljine $\tau$ i funkcije izvora $S$, a iza njega se nalazi izvor ulaznog intenziteta $I_0$. Koji uslov mora biti ispunjen da bi filament bio taman, a koji da bi protuberanca bila svetla? Objasniti, pomo\'{c}u ovih izraza, za\v{s}to protuberance i filamente vidimo u centru H$\alpha$ linije, a ne vidimo ih (lako) u kontinuumu.
+
+\begin{figure}[hbpt]
+\includegraphics[width=\textwidth]{promfil.jpg}
+\caption{Levo: primer protuberance. Desno: ista ta protuberanca, koja se vidi kao filament.}
+\end{figure}
+
+\end{document}
